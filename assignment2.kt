@@ -4,14 +4,14 @@ fun main() {
     val year = 2002
      when{
         (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)->
-        println("Leao year")
+        println("Leap year")
         else ->
         println("Not leap year")
      }
     
 }
 //===========================================
-// for loop - Used whrn you know how many times you want to loop
+// for loop - Used when you know how many times you want to loop
 //print numbers 1 to 5
 fun main() {
     for (i in 1..5) {
