@@ -46,13 +46,3 @@ fun main(){
 
 }
 // check on the difference between local variables and global variables
-fun main() {
-    val x = 10  // local variable
-    println(x)
-}
-
-val x = 10  // global variable
-
-fun main() {
-    println(x)
-}
