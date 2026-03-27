@@ -36,27 +36,4 @@ while(y <= 2025){
     y = y + 1
 }
 }
-
-
-
-//A function without parameters is a function that does not take any input values. It simply performs a task when called.
-fun greet()// this is the function without parameter {
-    println("Hello, welcome!")
-}
-
-fun main() {
-    greet()  // calling the function
-}
-
-fun showEvenYears() {
-    var year = 2000
-    while (year <= 2025) {
-        println(year)
-        year += 2
-    }
-}
-
-fun main() {
-    showEvenYears()
-}
 }
