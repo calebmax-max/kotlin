@@ -45,4 +45,4 @@ fun main(){
 
 
 }
-// chek on th edufference between local variables and global variables
+// check on the difference between local variables and global variables
